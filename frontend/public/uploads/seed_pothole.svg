@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#1e293b"/>
+  <rect x="0" y="240" width="600" height="160" fill="#334155"/>
+  <ellipse cx="300" cy="310" rx="140" ry="45" fill="#0f172a" stroke="#ef4444" stroke-width="4"/>
+  <path d="M220 310 Q280 340 380 305 Q350 280 250 290 Z" fill="#020617"/>
+  <text x="300" y="70" fill="#ef4444" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">⚠️ SEVERE ASPHALT CAVITY DETECTED</text>
+  <text x="300" y="105" fill="#94a3b8" font-family="sans-serif" font-size="16" text-anchor="middle">Depth: ~18cm | Surface Area: 1.4m² | High Axle Risk</text>
+  <rect x="50" y="140" width="500" height="50" rx="8" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-width="1"/>
+  <text x="300" y="172" fill="#fca5a5" font-family="sans-serif" font-size="15" text-anchor="middle">AI Visual Classification: Pothole &amp; Sub-base Rupture (CHI: 84)</text>
+</svg>

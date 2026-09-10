@@ -1,0 +1,357 @@
+[
+  {
+    "title": "Pothole & Road Decay at Old Bus Stand & Municipal Market",
+    "category": "Pothole & Road Decay",
+    "description": "Deep asphalt pothole near the bus stop causing traffic congestion.",
+    "location": "Old Bus Stand & Municipal Market, Ward 12 (Town Center), Payyanur",
+    "latitude": 12.1032,
+    "longitude": 75.2023,
+    "status": "Reported",
+    "urgency_tier": "High",
+    "severity_score": 7.8,
+    "civic_hazard_index": 76,
+    "department": "Public Works Department (Roads & Infrastructure)",
+    "department_code": "PWD-ROAD",
+    "recommended_action": "Deploy Cold/Hot-Mix Asphalt, Plate Compactor, Safety Cones, Road Marking Crew",
+    "sla_hours": 24,
+    "estimated_cost_inr": 14500,
+    "safety_risk_summary": "Key risks: Motorcycle skidding hazard, Vehicle axle damage.",
+    "dispatched_team": null,
+    "upvotes": 12,
+    "verified_by_ai": true,
+    "ai_model": "CIVISENSE Intelligent Vision & Triage Engine (v2.4)",
+    "image_url": "/uploads/1789056211_7c9b1a5a.png",
+    "reporter_name": "Citizen Reporter (Sreerag)",
+    "timeline": [
+      {
+        "time": "Just now",
+        "event": "Reported with GPS (12.1032, 75.2023)"
+      },
+      {
+        "time": "Just now",
+        "event": "AI Verified: Severe Asphalt Cavity & Sub-base Failure Detected (CHI: 76)"
+      },
+      {
+        "time": "Just now",
+        "event": "Auto-routed to Public Works Department (Roads & Infrastructure)"
+      },
+      {
+        "time": "Just now",
+        "event": "Community Escalation: 5 citizens verified this hazard"
+      },
+      {
+        "time": "Just now",
+        "event": "Community Escalation: 10 citizens verified this hazard"
+      }
+    ],
+    "id": "CS-1049",
+    "ticket_no": "CS-2026-1049",
+    "created_at": "2026-09-10T16:03:31.983831+00:00",
+    "updated_at": "2026-09-10T16:03:31.983831+00:00"
+  },
+  {
+    "title": "Pothole & Road Decay at Near Coordinate (-12.0013",
+    "category": "Pothole & Road Decay",
+    "description": "a large pathhole - Deep Road Pothole",
+    "location": "Near Coordinate (-12.0013, -77.0158), Payyanur Sector",
+    "latitude": -12.00125,
+    "longitude": -77.015827,
+    "status": "Reported",
+    "urgency_tier": "High",
+    "severity_score": 7.8,
+    "civic_hazard_index": 76,
+    "department": "Public Works Department (Roads & Infrastructure)",
+    "department_code": "PWD-ROAD",
+    "recommended_action": "Deploy Cold/Hot-Mix Asphalt, Plate Compactor, Safety Cones, Road Marking Crew",
+    "sla_hours": 24,
+    "estimated_cost_inr": 14500,
+    "safety_risk_summary": "Key risks: Motorcycle skidding hazard, Vehicle axle damage.",
+    "dispatched_team": null,
+    "upvotes": 2,
+    "verified_by_ai": true,
+    "ai_model": "CIVISENSE Intelligent Vision & Triage Engine (v2.4)",
+    "image_url": "/uploads/1789055387_15d30e66.png",
+    "reporter_name": "Citizen Reporter (Sreerag)",
+    "timeline": [
+      {
+        "time": "Just now",
+        "event": "Reported with GPS (-12.0013, -77.0158)"
+      },
+      {
+        "time": "Just now",
+        "event": "AI Verified: Severe Asphalt Cavity & Sub-base Failure Detected (CHI: 76)"
+      },
+      {
+        "time": "Just now",
+        "event": "Auto-routed to Public Works Department (Roads & Infrastructure)"
+      }
+    ],
+    "id": "CS-1048",
+    "ticket_no": "CS-2026-1048",
+    "created_at": "2026-09-10T15:49:47.692811+00:00",
+    "updated_at": "2026-09-10T15:49:47.692811+00:00"
+  },
+  {
+    "title": "Dangerous Tree Limb & Wire Hazard at Kandoth Weavers Colony",
+    "category": "Dangerous Tree Limb & Wire Hazard",
+    "description": "Fallen electric branch dangling over high voltage power lines near temple",
+    "location": "Kandoth Weavers Colony, Ward 18 (Kandoth), Payyanur",
+    "latitude": 12.086,
+    "longitude": 75.228,
+    "status": "Dispatched",
+    "urgency_tier": "Critical",
+    "severity_score": 8.0,
+    "civic_hazard_index": 82,
+    "department": "Disaster Management & Forestry Cell",
+    "department_code": "DM-FOR",
+    "recommended_action": "Deploy Chainsaw, Hydraulic Crane, Insulated Line-Clearance Pole, Traffic Diversion Signs",
+    "sla_hours": 8,
+    "estimated_cost_inr": 9500,
+    "safety_risk_summary": "Key risks: High-tension power line rupture, Blockage of arterial emergency corridor.",
+    "dispatched_team": "Rapid Forestry & Wire Rescue Unit #2",
+    "upvotes": 2,
+    "verified_by_ai": true,
+    "ai_model": "CIVISENSE Intelligent Vision & Triage Engine (v2.4)",
+    "image_url": "/uploads/1789053174_cf103814.svg",
+    "reporter_name": "Civic Guardian",
+    "timeline": [
+      {
+        "time": "Just now",
+        "event": "Reported with GPS (12.0860, 75.2280)"
+      },
+      {
+        "time": "Just now",
+        "event": "AI Verified: Overhanging Unstable Timber & Tangled Power Distribution Line (CHI: 82)"
+      },
+      {
+        "time": "Just now",
+        "event": "Auto-routed to Disaster Management & Forestry Cell"
+      },
+      {
+        "time": "Just now",
+        "event": "Official Dispatch: Assigned to Rapid Forestry & Wire Rescue Unit #2"
+      }
+    ],
+    "id": "CS-1047",
+    "ticket_no": "CS-2026-1047",
+    "created_at": "2026-09-10T15:12:54.768549+00:00",
+    "updated_at": "2026-09-10T15:13:03.241401+00:00"
+  },
+  {
+    "id": "CS-1041",
+    "ticket_no": "CS-2026-1041",
+    "title": "Severe Double Pothole on NH66 Service Lane",
+    "category": "Pothole & Road Decay",
+    "description": "Two deep potholes spanning 1.4 meters near Perumba bus stop. Causing severe traffic congestion and danger to two-wheelers.",
+    "location": "Perumba Junction & NH 66, Ward 1 (Perumba), Payyanur",
+    "latitude": 12.0915,
+    "longitude": 75.2134,
+    "status": "Resolved",
+    "urgency_tier": "High",
+    "severity_score": 8.2,
+    "civic_hazard_index": 84,
+    "department": "Public Works Department (Roads & Infrastructure)",
+    "department_code": "PWD-ROAD",
+    "recommended_action": "Deploy cold-mix asphalt patch and safety cones",
+    "sla_hours": 24,
+    "estimated_cost_inr": 16500,
+    "dispatched_team": "PWD Rapid Crew",
+    "created_at": "2026-09-10T10:15:00Z",
+    "updated_at": "2026-09-10T16:21:14.243891+00:00",
+    "upvotes": 22,
+    "verified_by_ai": true,
+    "image_url": "/uploads/seed_pothole.svg",
+    "timeline": [
+      {
+        "time": "10:15 AM",
+        "event": "Reported by citizen with GPS coordinates"
+      },
+      {
+        "time": "10:16 AM",
+        "event": "AI Multimodal Inspector classified hazard (CHI: 84)"
+      },
+      {
+        "time": "02:30 PM",
+        "event": "Auto-routed and Dispatched to PWD Rapid Unit #4"
+      },
+      {
+        "time": "Just now",
+        "event": "Community Escalation: 20 citizens verified this hazard"
+      },
+      {
+        "time": "Just now",
+        "event": "Official Dispatch: Assigned to PWD Rapid Crew"
+      },
+      {
+        "time": "Just now",
+        "event": "Resolved: Work completed and verified by municipal inspector."
+      }
+    ],
+    "resolved_at": "2026-09-10T16:21:14.243891+00:00",
+    "resolution_summary": "Work completed and verified by municipal inspector."
+  },
+  {
+    "id": "CS-1039",
+    "ticket_no": "CS-2026-1039",
+    "title": "Solid Waste Accumulation near Canal Walkway",
+    "category": "Solid Waste & Illegal Dumping",
+    "description": "Unattended municipal plastic garbage and commercial cartons piling up along the canal walkway for 4 days.",
+    "location": "Annur Bridge & Canal Walk, Ward 4 (Annur), Payyanur",
+    "latitude": 12.115,
+    "longitude": 75.219,
+    "status": "Reported",
+    "urgency_tier": "Moderate",
+    "severity_score": 6.4,
+    "civic_hazard_index": 62,
+    "department": "Municipal Health & Sanitation Division",
+    "department_code": "MUN-SNT",
+    "recommended_action": "Dispatch hydraulic waste compactor truck & disinfectant",
+    "sla_hours": 36,
+    "estimated_cost_inr": 6800,
+    "dispatched_team": null,
+    "created_at": "2026-09-10T13:45:00Z",
+    "updated_at": "2026-09-10T13:46:00Z",
+    "upvotes": 8,
+    "verified_by_ai": true,
+    "image_url": "/uploads/seed_garbage.svg",
+    "timeline": [
+      {
+        "time": "01:45 PM",
+        "event": "Reported by resident"
+      },
+      {
+        "time": "01:46 PM",
+        "event": "AI Civic Vision confirmed waste cluster"
+      }
+    ]
+  },
+  {
+    "id": "CS-1035",
+    "ticket_no": "CS-2026-1035",
+    "title": "Streetlight Grid Failure on Railway Station Road",
+    "category": "Streetlight Malfunction & Darkness",
+    "description": "4 consecutive LED streetlights are out, leaving a 200m stretch completely pitch dark for evening train passengers.",
+    "location": "Payyanur Railway Station Road, Ward 15 (Station Area), Payyanur",
+    "latitude": 12.1078,
+    "longitude": 75.1925,
+    "status": "Triaged",
+    "urgency_tier": "High",
+    "severity_score": 7.5,
+    "civic_hazard_index": 73,
+    "department": "Electricity & Public Lighting Cell (KSEB / Municipal)",
+    "department_code": "ELEC-LGT",
+    "recommended_action": "Replace blown 60W LED fixtures and test underground cabling",
+    "sla_hours": 24,
+    "estimated_cost_inr": 8400,
+    "dispatched_team": null,
+    "created_at": "2026-09-09T18:20:00Z",
+    "updated_at": "2026-09-09T19:00:00Z",
+    "upvotes": 22,
+    "verified_by_ai": true,
+    "image_url": "/uploads/seed_streetlight.svg",
+    "timeline": [
+      {
+        "time": "06:20 PM",
+        "event": "Reported by commuter"
+      },
+      {
+        "time": "07:00 PM",
+        "event": "Municipal Lighting Engineer queued work ticket"
+      }
+    ]
+  },
+  {
+    "id": "CS-1028",
+    "ticket_no": "CS-2026-1028",
+    "title": "Major Drinking Water Main Pipe Fracture",
+    "category": "Water Pipeline Burst & Flooding",
+    "description": "High pressure 150mm cast iron potable water supply line burst. Water flooding market entrance, severe loss of drinking water.",
+    "location": "Old Bus Stand & Municipal Market, Ward 12 (Town Center), Payyanur",
+    "latitude": 12.1032,
+    "longitude": 75.2023,
+    "status": "Resolved",
+    "urgency_tier": "Critical",
+    "severity_score": 9.0,
+    "civic_hazard_index": 92,
+    "department": "Kerala Water Authority (KWA) / Municipal Water Supply",
+    "department_code": "KWA-PIPE",
+    "recommended_action": "Emergency isolation valve shutdown & pipe sleeve replacement",
+    "sla_hours": 12,
+    "estimated_cost_inr": 34000,
+    "dispatched_team": "KWA Emergency Pipeline Squad #1",
+    "created_at": "2026-09-10T08:30:00Z",
+    "updated_at": "2026-09-10T16:43:38.921782+00:00",
+    "upvotes": 38,
+    "verified_by_ai": true,
+    "image_url": "/uploads/seed_water.svg",
+    "timeline": [
+      {
+        "time": "08:30 AM",
+        "event": "Reported with photos of active gush"
+      },
+      {
+        "time": "08:31 AM",
+        "event": "AI prioritized as Critical Hazard (CHI: 92)"
+      },
+      {
+        "time": "09:15 AM",
+        "event": "Emergency valve closed, excavation team dispatched"
+      },
+      {
+        "time": "Just now",
+        "event": "Community Escalation: 35 citizens verified this hazard"
+      },
+      {
+        "time": "Just now",
+        "event": "Resolved: Work completed and verified by municipal inspector."
+      }
+    ],
+    "resolved_at": "2026-09-10T16:43:38.921782+00:00",
+    "resolution_summary": "Work completed and verified by municipal inspector."
+  },
+  {
+    "id": "CS-1022",
+    "ticket_no": "CS-2026-1022",
+    "title": "Missing Heavy Drain Slab on School Walkway",
+    "category": "Open Drain & Missing Manhole Slab",
+    "description": "Open 5-foot deep stormwater drain right outside school gate. High danger to schoolchildren during morning hours.",
+    "location": "Keloth High School Road, Ward 8 (Keloth), Payyanur",
+    "latitude": 12.1095,
+    "longitude": 75.2081,
+    "status": "Resolved",
+    "urgency_tier": "Critical",
+    "severity_score": 9.5,
+    "civic_hazard_index": 96,
+    "department": "Stormwater Drainage & Sewerage Board",
+    "department_code": "DRN-SEW",
+    "recommended_action": "Install reinforced precast concrete slab (600x600mm)",
+    "sla_hours": 8,
+    "estimated_cost_inr": 9200,
+    "dispatched_team": "Ward 8 Drainage Maintenance Crew",
+    "created_at": "2026-09-08T09:00:00Z",
+    "updated_at": "2026-09-08T15:30:00Z",
+    "resolved_at": "2026-09-08T15:30:00Z",
+    "resolution_summary": "Replaced with reinforced concrete cover slab and sealed with cement mortar. Road cleared.",
+    "upvotes": 42,
+    "verified_by_ai": true,
+    "image_url": "/uploads/seed_drain.svg",
+    "timeline": [
+      {
+        "time": "09:00 AM",
+        "event": "Reported by school PTA president"
+      },
+      {
+        "time": "09:02 AM",
+        "event": "Immediate Critical Escalation via AI (CHI: 96)"
+      },
+      {
+        "time": "11:00 AM",
+        "event": "Barricades placed & replacement slab ordered"
+      },
+      {
+        "time": "03:30 PM",
+        "event": "Slab installed & verified resolved by field officer"
+      }
+    ]
+  }
+]
