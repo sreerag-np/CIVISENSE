@@ -74,7 +74,7 @@ export default function CivicFeed({ reports = [], onSelectReport, onUpvote }) {
             const isCritical = report.urgency_tier === "Critical" && !isResolved;
             const imageUrl = report.image_url?.startsWith("http")
               ? report.image_url
-              : `http://127.0.0.1:8000${report.image_url}`;
+              : `https://civisense-backend-vgjc.onrender.com${report.image_url}`;
 
             return (
               <div 
@@ -86,7 +86,7 @@ export default function CivicFeed({ reports = [], onSelectReport, onUpvote }) {
                   <img 
                     src={imageUrl} 
                     alt={report.title}
-                    onError={(e) => { e.target.src = "http://127.0.0.1:8000/uploads/seed_pothole.svg"; }}
+                    onError={(e) => { e.target.src = "https://civisense-backend-vgjc.onrender.com/uploads/seed_pothole.svg"; }}
                   />
                   <span className={`card-status-tag ${isResolved ? "resolved" : isCritical ? "critical" : "warning"}`}>
                     {report.status}
@@ -165,3 +165,4 @@ export default function CivicFeed({ reports = [], onSelectReport, onUpvote }) {
     </div>
   );
 }
+

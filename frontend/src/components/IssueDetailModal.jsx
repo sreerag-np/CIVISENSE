@@ -45,7 +45,7 @@ export default function IssueDetailModal({
   // Construct full image path
   const imageUrl = report.image_url?.startsWith("http")
     ? report.image_url
-    : `http://127.0.0.1:8000${report.image_url}`;
+    : `https://civisense-backend-vgjc.onrender.com${report.image_url}`;
 
   return (
     <div className="modal-backdrop" onClick={onClose}>
@@ -72,7 +72,7 @@ export default function IssueDetailModal({
               <img 
                 src={imageUrl} 
                 alt={report.title} 
-                onError={(e) => { e.target.src = "http://127.0.0.1:8000/uploads/seed_pothole.svg"; }}
+                onError={(e) => { e.target.src = "https://civisense-backend-vgjc.onrender.com/uploads/seed_pothole.svg"; }}
               />
               <div className="image-ai-watermark">
                 <Sparkles size={13} />
@@ -214,3 +214,4 @@ export default function IssueDetailModal({
     </div>
   );
 }
+
