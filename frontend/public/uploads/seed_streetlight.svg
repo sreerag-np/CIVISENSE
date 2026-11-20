@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#020617"/>
+  <!-- Pole -->
+  <line x1="180" y1="360" x2="180" y2="120" stroke="#64748b" stroke-width="8"/>
+  <path d="M180 120 Q220 90 260 110" fill="none" stroke="#64748b" stroke-width="6"/>
+  <circle cx="260" cy="115" r="14" fill="#334155" stroke="#dc2626" stroke-width="3"/>
+  <text x="300" y="70" fill="#f87171" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">💡 STREETLIGHT CIRCUIT BREAKDOWN</text>
+  <text x="300" y="105" fill="#cbd5e1" font-family="sans-serif" font-size="16" text-anchor="middle">Blackout Span: 200m | Night Commuter Safety Risk</text>
+  <rect x="50" y="140" width="500" height="50" rx="8" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-width="1"/>
+  <text x="300" y="172" fill="#fca5a5" font-family="sans-serif" font-size="15" text-anchor="middle">AI Visual Classification: Out-of-Service Luminaire (CHI: 73)</text>
+</svg>
