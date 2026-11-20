@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { MapContainer, CircleMarker, Popup } from 'react-leaflet'
 import { MapPin, ThumbsUp } from 'lucide-react'
-import { api, STATUS_COLOR } from '../api.js'
+import { api, STATUS_COLOR, getImageUrl } from '../api.js'
 import { useAuth } from '../auth.jsx'
 import { CategoryIcon, DEFAULT_CENTER, Empty, FlyTo, PageHead, SampleTag, Skeleton, StatusBadge, TierBadge, Tiles } from '../components.jsx'
 
@@ -88,7 +88,7 @@ export default function Explore() {
                 </span>
                 <span className="muted small">{r.description.slice(0, 110)}{r.description.length > 110 ? '…' : ''}</span>
                 <span className="rep-meta"><TierBadge tier={r.tier} chi={r.chi} /></span>
-                {r.image_url && <img className="rep-img" src={r.image_url} alt="" loading="lazy" />}
+                {r.image_url && <img className="rep-img" src={getImageUrl(r.image_url)} alt="" loading="lazy" />}
               </button>
               <div className="rep-actions">
                 <button className="btn sm" onClick={() => support(r.ref)} aria-label={`Support this report. ${r.supports} supporters`}>

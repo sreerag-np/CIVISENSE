@@ -1,5 +1,16 @@
 const BASE = import.meta.env.VITE_API_URL || '/api'
 
+export function getImageUrl(path) {
+  if (!path) return null;
+
+  if (path.startsWith('http://') || path.startsWith('https://')) {
+    return path;
+  }
+
+  const backend = BASE.replace(/\/api\/?$/, '');
+  return `${backend}${path.startsWith('/') ? path : `/${path}`}`;
+}
+
 export function getToken() {
   try { return localStorage.getItem('cs_token') } catch { return null }
 }

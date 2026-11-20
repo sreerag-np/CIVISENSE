@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Search } from 'lucide-react'
-import { api, fmtDate } from '../api.js'
+import { api, fmtDate, getImageUrl } from '../api.js'
 import { CopyButton, PageHead, RoadProgress, SampleTag, Skeleton, SlaTag, StatusBadge, TierBadge } from '../components.jsx'
 
 export default function Track() {
@@ -45,7 +45,7 @@ export default function Track() {
           <RoadProgress status={report.status} />
 
           <p style={{ marginTop: 12 }}>{report.description}</p>
-          {report.image_url && <img src={report.image_url} alt="Photo attached to the report" style={{ borderRadius: 8, maxHeight: 320 }} />}
+          {report.image_url && <img src={getImageUrl(report.image_url)} alt="Photo attached to the report" style={{ borderRadius: 8, maxHeight: 320 }} />}
 
           <dl className="facts">
             <div className="fact"><dt>Status</dt><dd><StatusBadge status={report.status} /></dd></div>

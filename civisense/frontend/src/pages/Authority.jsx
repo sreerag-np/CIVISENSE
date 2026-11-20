@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { api, fmtDate } from '../api.js'
+import { api, fmtDate, getImageUrl } from '../api.js'
 import { useAuth } from '../auth.jsx'
 import { Empty, PageHead, RiskBadge, SampleTag, Skeleton, SlaTag, StatusBadge, TierBadge } from '../components.jsx'
 
@@ -139,7 +139,7 @@ export default function Authority() {
             <>
               <h3>{s.category_label} <RiskBadge risk={s.risk} /></h3>
               <p>{s.description}</p>
-              {s.image_url && <img src={s.image_url} alt="Photo attached to the report" style={{ borderRadius: 8, maxHeight: 240 }} />}
+              {s.image_url && <img src={getImageUrl(s.image_url)} alt="Photo attached to the report" style={{ borderRadius: 8, maxHeight: 240 }} />}
               <p className="hint">
                 {s.authority || 'Needs manual routing'}. {s.routing_note} Suggestion by {s.ai_method || 'n/a'}
                 {s.ai_confidence != null && ` (${Math.round(s.ai_confidence * 100)}% confidence)`}.

@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { MapContainer, TileLayer, CircleMarker, useMapEvents, useMap } from 'react-leaflet'
 import { Check, Construction, Copy, Droplets, Info, Inbox, Lightbulb, Trash2, TreePine, Waves } from 'lucide-react'
-import { RISK_COLOR, RISK_LABEL, STATUS_COLOR, STATUS_LABEL, TIER_COLOR, publicStatus } from './api.js'
+
+import { RISK_COLOR, RISK_LABEL, STATUS_COLOR, STATUS_LABEL, TIER_COLOR, publicStatus, getImageUrl } from './api.js'
 
 export const DEFAULT_CENTER = [12.0373, 75.3589] // Taliparamba / north Kannur
 export const FLOW = ['submitted', 'under_review', 'assigned', 'in_progress', 'resolved']
@@ -116,7 +117,7 @@ export function ReportRow({ r }) {
   return (
     <Link to={`/track/${r.ref}`} className="report-row">
       <span className="report-thumb">
-        {r.image_url ? <img src={r.image_url} alt="" loading="lazy" /> : <CategoryIcon category={r.category} />}
+        {r.image_url ? <img src={getImageUrl(r.image_url)} alt="" loading="lazy" /> : <CategoryIcon category={r.category} />}
       </span>
       <span className="report-main">
         <span className="report-title">{r.category_label} <SampleTag show={r.is_sample} /></span>
